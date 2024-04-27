@@ -1,0 +1,43 @@
+/* Color scheme */
+
+:root {
+    --purple: rgb(75, 31, 207);
+    --flamenco: rgb(255, 126, 11);
+    --tuna: rgb(63, 61, 76);
+    --smoky: rgb(91, 88, 108);
+    --waterloo: rgb(126, 122, 153);
+    --alabaster: rgb(249, 249, 249);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: var(--tuna);
+}
+
+h1 {
+    margin-top: 16px;
+}
+
+a.button {
+    margin-top: 16px;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 16px;
+}
